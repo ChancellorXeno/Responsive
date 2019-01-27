@@ -1,0 +1,261 @@
+@media only screen and (max-width: 720px){
+	body {
+		font-family: 'Archivo', sans-serif;
+		background-color: black;
+		color: #545454;
+		font-size: 0.9em;
+		max-width: 100%;
+	}
+	.container {
+		max-width: 100%;
+		background-color: white;
+		padding-bottom: 0.75em;
+	}
+	.nav {
+		background-color: #EEDB15;
+		height: 4.15em;
+	}
+	.nav2 {
+		background-color: white;
+		height: 4.15em;
+	}
+	#fas1 {
+		font-size: 1.78em;
+		padding: 0.25em 0.6em 0.25em 0.6em;
+		margin: 0.4em 0.25em 0.25em 0.7em;
+		border: solid white 0.01em;
+		opacity: 0.5;
+		color: white;
+	}
+	#fas2 {
+		font-size: 1.78em;
+		padding: 0.25em 0.6em 0.25em 0.6em;
+		margin: 0.4em 0.25em 0.25em 0.7em;
+		border: solid black 0.01em;
+		opacity: 0.5;
+	}
+	#down_head{
+	    background-color: #EEDB15;
+	    position: relative;
+	    margin-top: -0.7em;
+	    display: none;
+	}
+	#down_nav{
+	    background-color: white;
+	    position: relative;
+	    margin-top: -0.8em;
+	    display: none;
+	}
+	#down_head p {
+		padding-left: 1.25em;
+	}
+	#down_nav p {
+		padding-left: 1.25em;
+	}
+	.h-img{
+		width: 100%;
+		height: auto;
+	}
+	.h-img2{
+		display: none;
+	}
+	.logo {
+		float: right;
+		margin: 0.45em 8% 0em 0em;
+	    width: 175px;
+	    height: auto;
+	}
+	.logo2 {
+		display: none;
+	}
+	.proefles {
+		width: 80%;
+		margin: 0% 10% 0% 10%;
+	}
+	.proefles h1 {
+		margin-top: 1.5em;
+		font-size: 1.75em;
+		padding: 0em 0em 0.6em 1em;
+		border-bottom: solid #a6a6a6 0.01em; 
+	}
+	.proefles p {
+		padding: 0em 1em 1em 1em;
+	}
+	.gratis {
+		border-style: none;
+		font-size: 1.75em;
+		background-color: #FFC114;
+		width: 100%;
+		padding: 0.5em 0em 0.5em 0em;
+	}
+	span {
+		color: blue;
+	}
+	.locaties {
+		width: 80%;
+		margin: 2em 10% 0% 10%;
+	}
+	.locaties h1 {
+		margin-top: 1.5em;
+		font-size: 1.75em;
+		padding: 0em 0em 0.6em 1em;
+		border-bottom: solid #a6a6a6 0.01em; 
+	}
+	.locaties p {
+		padding: 0em 1em 1em 1em;
+	}
+	.rijlessen {
+		width: 80%;
+		margin: 2em 10% 0% 10%;
+	}
+	.rijlessen h1 {
+		margin-top: 1.5em;
+		font-size: 1.75em;
+		padding: 0em 0em 0.6em 1em;
+		border-bottom: solid #a6a6a6 0.01em; 
+	}
+	.rijlessen p {
+		padding: 0em 1em 1em 1em;
+	}
+	.videoWrapper {
+		margin: 4em 3% 0em 3%;
+		position: relative;
+		padding-bottom: 53%;
+		height: 0;
+	}
+	.videoWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+@media only screen and (min-width: 720px) {
+	body {
+		font-family: 'Archivo', sans-serif;
+		background-color: #F9F9F9;
+		color: #545454;
+		font-size: 0.9em;
+		max-width: 100%;
+	}
+	.h-img{
+		display: none;
+	}
+	.h-img2{
+		width: 100%;
+		height: auto;
+	}
+	.container br {
+		display: none;
+	}
+	.nav {
+		background-color: #EEDB15;
+		height: 2em;
+		position: sticky;
+		top: 0;
+		z-index: 1;
+	}
+	.nav p {
+		float: right;
+		margin-top: 0.5em;
+		margin-right: 15%;
+	}
+	.nav2 {
+		background-color: white;
+		height: 8em;
+	}
+	.textboxes {
+		width: 80%;
+		margin: 0% 10% 7em 10%;
+	}
+	#fas1 {
+		display: none;	
+	}
+	#down_head {
+		display: block;
+	}
+	#fas2 {
+		display: none;	
+	}
+	#down_nav {
+		display: inline-block;
+		margin: 2em 0em 0em 1em;
+		position: absolute;
+		font-size: 1.2em;
+	}
+	.logo {
+		display: none;
+	}
+	.logo2 {
+		margin: 0.9em 0em 0em 12.5%;
+		width: 22em;
+	    height: auto;
+	    display: inline-block;	 
+	}
+	.proefles {
+		width: 30%;
+		margin: 0% 1.5% 0% 1.5%;
+		display: inline-block;
+		float: left;
+	}
+	.proefles h1 {
+		font-size: 1.75em;
+		padding: 0em 0em 0.6em 0.5em;
+		border-bottom: solid #a6a6a6 0.01em; 
+	}
+	.proefles p {
+		padding: 0em 0.5em 0em 0.5em;
+		font-size: 1.2em;
+	}
+	.gratis {
+		border-style: none;
+		font-size: 1.75em;
+		background-color: #FFC114;
+		width: 100%;
+		padding: 0.5em 0em 0.5em 0em;
+	}
+	.locaties {
+		width: 30%;
+		margin: 0% 1.5% 0% 1.5%;
+		display: inline-block;
+	}
+	.locaties h1 {
+		font-size: 1.75em;
+		padding: 0em 0em 0.6em 0.5em;
+		border-bottom: solid #a6a6a6 0.01em; 
+	}
+	.locaties p {
+		padding: 0em 0.5em 0em 0.5em;
+		font-size: 1.2em;
+	}
+	.rijlessen {
+		width: 30%;
+		margin: 0% 1.5% 0% 1.5%;
+		display: inline-block;
+		float: right;
+	}
+	.rijlessen h1 {
+		font-size: 1.75em;
+		padding: 0em 0em 0.6em 0.5em;
+		border-bottom: solid #a6a6a6 0.01em; 
+	}
+	.rijlessen p {
+		padding: 0em 0.5em 0em 0.5em;
+		font-size: 1.2em;
+	}
+	.videoWrapper {
+		width: 80%;
+		margin: 0em 10% 1em 10%;
+		position: relative;
+		padding-bottom: 53%;
+		height: 0;
+	}
+	.videoWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
